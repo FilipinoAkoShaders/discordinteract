@@ -9,8 +9,8 @@ git commit -m "project files"
 
 git remote add origin "$2"
 
-git pull origin main
+git push origin master
 
-git push origin main
+git pull origin master
 
-git diff
+git diff master..main

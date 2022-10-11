@@ -27,8 +27,8 @@ let disclient = new Client({
   partials: Object.values(Partials)
 })
 
-disclient.login(process.env.DISTOKEN)
-mesclient.login()
+/*disclient.login(process.env.DISTOKEN)
+mesclient.login()*/
 
 disclient.on('ready', async() => {
   console.log('Discord bot is up!')
